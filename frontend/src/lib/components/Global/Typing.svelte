@@ -24,18 +24,12 @@
 	});
 </script>
 
-<div class="text-terminal-green whitespace-pre-wrap bg-black p-4 h-28 font-mono leading-relaxed">
+<div class="text-terminal-green whitespace-pre-wrap bg-black p-4 min-h-28 font-mono leading-relaxed">
 	{displayedText}
 	<span class={`inline-block h-5 w-2 ${cursorVisible ? 'bg-terminal-green' : 'bg-black'}`}></span>
 </div>
 
 <style>
-	:global(.text-terminal-green) {
-		color: #00ff00;
-	}
-	:global(.bg-terminal-green) {
-		background-color: #00ff00;
-	}
 	.cursor-box {
 		display: inline-block;
 		width: 10px;

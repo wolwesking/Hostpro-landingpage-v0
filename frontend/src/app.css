@@ -5,9 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body {
+html {
+    scroll-behavior: smooth;
     background: #000;
+
 }
 
 .text-glow {
@@ -17,10 +18,9 @@ body {
         0 0 15px rgba(255, 255, 255, 0.4);
 }
 
-.noselect
-{
+.noselect {
     -webkit-user-select: none;
-    -moz-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
