@@ -2,7 +2,7 @@
 	import Typing from '$lib/components/Global/Typing.svelte';
 	const text = `$ ./create-server --game="Minecraft" --players=10 --region="EU-West"
 		[Creating server... Done!]
-		[Ready to play? Hit 'Launch Your Server' above!]`;
+		[Ready to play? Hit 'Start' below!]`;
 	import { goto } from '$app/navigation';
 </script>
 
@@ -43,7 +43,7 @@
 			on:click={()=>goto("#features")}
 		>
 			<h3 class="text-dark-green">
-				<span>&gt;</span> Start
+				<span>&gt;</span> See more
 			</h3>
 		</button>
 

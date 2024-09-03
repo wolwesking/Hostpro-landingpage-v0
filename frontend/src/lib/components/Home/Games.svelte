@@ -117,7 +117,7 @@
 			</button>
 		</div>
 		<div class="bg-base02 mt-6 w-full rounded-lg p-6 text-center shadow-lg">
-			<p class="text-base1 mb-2 font-mono text-lg md:text-xl">Can’t find your game?</p>
+			<p class="text-base1 mb-2 font-mono text-lg md:text-xl">Can't find your game?</p>
 			<p class="text-base1 mb-4 font-mono text-lg md:text-xl">Request it on our Discord server</p>
 			<a
 				href="#"

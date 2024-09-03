@@ -10,14 +10,14 @@
 
 	<nav class="hidden items-center space-x-8 md:flex">
 		<a href="/" class="hover:text-accent-yellow text-lg transition-colors duration-200">Home</a>
-		<a href="#" class="hover:text-accent-yellow text-lg transition-colors duration-200">Servers</a>
-		<a href="#" class="hover:text-accent-yellow text-lg transition-colors duration-200">Pricing</a>
+		<!-- <a href="#" class="hover:text-accent-yellow text-lg transition-colors duration-200">Servers</a> -->
+		<a href="/prices" class="hover:text-accent-yellow text-lg transition-colors duration-200">Prices</a>
 		<a href="#" class="hover:text-accent-yellow text-lg transition-colors duration-200">Support</a>
 	</nav>
 
 	<div class="flex items-center space-x-4">
 		<button
-			class="bg-medium-green hover:bg-light-green text-dark-green rounded px-4 py-2 font-bold shadow-md transition-colors"
+			class="bg-medium-green hover:bg-light-green text-very-light-green rounded px-4 py-2 font-bold shadow-md transition-colors"
 		>
 			Get Started
 		</button>
