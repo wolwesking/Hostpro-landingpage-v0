@@ -8,10 +8,9 @@
 			</h2></a
 		>
 		<div class="bg-base02 rounded-lg p-8 text-center shadow-lg">
-			<h3 class="text-light-green mb-4 font-mono text-2xl font-bold">Start With Our Free Tier</h3>
 			<p class="text-base1 mb-6">
-				Experience the power and flexibility of our game servers with no commitment. Start your free
-				tier today and see how easy it is to host your favorite games. What are you waiting for?
+				Experience the power and flexibility of our game servers with no commitment. Start today and
+				see how easy it is to host your favorite games. What are you waiting for?
 			</p>
 			<a
 				href="/"

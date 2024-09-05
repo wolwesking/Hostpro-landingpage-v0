@@ -1,4 +1,4 @@
-<section class="bg-base03 text-base0 px-6 py-24" id="features">
+<section class="bg-base03 text-base0 px-6 py-20" id="features">
 	<div class="mx-auto max-w-6xl text-center">
 		<a href="#features">
 			<h2 class="text-very-light-green noselect mb-10 font-mono text-3xl font-bold hover:underline">
@@ -48,7 +48,7 @@
 		<div class="mt-12">
 			<h3 class="text-accent-yellow mb-8 font-mono text-xl font-bold">&gt; Performance Metrics</h3>
 			<p class="text-base1">
-				With an average ping of 20ms, 99.99% uptime, and 24/7 support, our game servers are
+				With an average ping of 20ms, 99.9% uptime, and 24/7 support, our game servers are
 				optimized for the ultimate gaming experience.
 			</p>
 		</div>

@@ -1,11 +1,11 @@
 <footer class="bg-base02 text-base0 noselect px-6 py-8 font-mono">
 	<div class="mx-auto flex max-w-4xl flex-col items-center justify-center space-y-6 text-center">
-		<h2 class="text-very-light-green text-2xl font-bold hover:underline lg:text-3xl">
+		<h2 class="text-very-light-green text-2xl font-bold lg:text-3xl">
 			&gt; Join the Game Server Community
 		</h2>
 
 		<div class="mb-4 flex space-x-6">
-			<a href="#" class="text-light-green hover:text-very-light-green transition-colors">Twitter</a>
+			<!-- <a href="#" class="text-light-green hover:text-very-light-green transition-colors">Twitter</a> -->
 			<a href="#" class="text-light-green hover:text-very-light-green transition-colors">Discord</a>
 		</div>
 
