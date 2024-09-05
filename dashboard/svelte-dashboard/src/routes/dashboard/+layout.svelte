@@ -52,13 +52,6 @@
 			>
 				<span class="font-semibold">Subscriptions</span>
 			</a>
-			<a
-				href="/profile"
-				class="flex items-center p-3 rounded-lg text-base3 hover:text-light-green hover:bg-dark-green transition-colors duration-300 ease-in-out
-					{currentPage === '/profile' ? 'bg-dark-green text-base3' : ''}"
-			>
-				<span class="font-semibold">Settings</span>
-			</a>
 		</div>
 	</aside>
 
