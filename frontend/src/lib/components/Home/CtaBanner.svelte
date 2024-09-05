@@ -13,7 +13,7 @@
 				see how easy it is to host your favorite games. What are you waiting for?
 			</p>
 			<a
-				href="/"
+				href="/prices#pricing"
 				class="bg-neon-cyan hover:bg-cyan text-base03 rounded px-6 py-3 font-mono text-lg font-semibold shadow-md transition-colors"
 			>
 				Start Now
