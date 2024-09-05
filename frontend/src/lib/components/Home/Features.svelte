@@ -1,4 +1,4 @@
-<section class="bg-base03 text-base0 px-6 py-20" id="features">
+<section class="bg-base03 text-base0 px-6 pt-20 pb-12" id="features">
 	<div class="mx-auto max-w-6xl text-center">
 		<a href="#features">
 			<h2 class="text-very-light-green noselect mb-10 font-mono text-3xl font-bold hover:underline">

@@ -6,7 +6,7 @@
 	};
 </script>
 
-<section class="bg-base03 text-base0 px-4 py-20" id="games">
+<section class="bg-base03 text-base0 px-4 pt-20" id="games">
 	<div class="container mx-auto max-w-6xl">
 		<a href="#games">
 			<h2
