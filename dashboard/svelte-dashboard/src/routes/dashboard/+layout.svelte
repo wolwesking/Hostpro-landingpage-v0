@@ -9,8 +9,8 @@
 
 	const handleLogout = async () => {
 		// Implement logout logic here
-		await logoutUser();
 		goto("/");
+		await logoutUser();
 	};
 	
 	// Update currentPage based on the page store
@@ -18,7 +18,6 @@
 
 	onMount(() => {
 		// Initialize currentPage if needed
-		goto("/")
 		currentPage = $page.url.pathname;
 	});
 </script>
