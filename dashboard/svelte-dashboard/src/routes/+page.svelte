@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { loginUser, registerUser } from '$lib/Authmanager';
+	import { loginUser, registerUser } from '$lib/server/Authmanager';
 
 	let isRegister: boolean = false; // Toggle between Login and Register
 

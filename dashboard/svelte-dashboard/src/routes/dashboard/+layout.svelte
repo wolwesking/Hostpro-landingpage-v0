@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from "$app/navigation";
-	import { logoutUser } from "$lib/Authmanager";
+	import { logoutUser } from "$lib/server/Authmanager";
 	import { onMount } from "svelte";
 	import { page } from '$app/stores'; // Import the SvelteKit page store
 
