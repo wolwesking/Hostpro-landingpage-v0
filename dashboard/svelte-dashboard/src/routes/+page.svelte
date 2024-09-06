@@ -29,7 +29,7 @@
 		if (checkPassword()) {
 			const res: any = await loginUser(email, password);
 			if (res === 'Success') {
-				goto('/dashboard');
+				goto('/dashboard/servers');
 			} else {
 				errorMessage = res;
 				return;
@@ -47,7 +47,7 @@
 			if (res === 'Success') {
 				const log: any = await loginUser(email, password);
 				if (log === 'Success') {
-					goto('/dashboard');
+					goto('/dashboard/servers');
 				} else {
 					errorMessage = log;
 					return;
