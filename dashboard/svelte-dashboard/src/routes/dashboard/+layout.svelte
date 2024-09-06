@@ -12,12 +12,13 @@
 		await logoutUser();
 		goto("/");
 	};
-
+	
 	// Update currentPage based on the page store
 	$: currentPage = $page.url.pathname;
 
 	onMount(() => {
 		// Initialize currentPage if needed
+		goto("/")
 		currentPage = $page.url.pathname;
 	});
 </script>
