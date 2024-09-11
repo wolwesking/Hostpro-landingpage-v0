@@ -1,5 +1,6 @@
 <!-- PriceSection.svelte -->
 <script>
+	import { goto } from '$app/navigation';
     import PricingBlock from './PriceBlock.svelte';
 
     // Sample data for demonstration; replace with actual props or data source
@@ -13,28 +14,29 @@
                 "10gb ssd",
             ],
             price: "4.00",
-            cta: () => alert("Minecraft Server Purchased!"),
+            cta: () => {
+            },
         },
         {
             title: "Recomended",
             gamePic: "/satisfactory-icon.png",
             description: [
-                "4gb ram",
+                "6gb ram",
                 "2 vcore",
                 "20gb ssd",
             ],
-            price: "8.00",
+            price: "9.00",
             cta: () => alert("CS:GO Server Purchased!"),
         },
         {
             title: "High Performance",
             gamePic: "/satisfactory-icon.png",
-            description: [
-                "12gb ram",
-                "4 vcore",
-                "40gb ssd",
-            ],
-            price: "18.00",
+                description: [
+                    "12gb ram",
+                    "4 vcore",
+                    "50gb ssd",
+                ],
+                price: "18.00",
             cta: () => alert("Rust Server Purchased!"),
         },
     ];
